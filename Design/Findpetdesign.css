@@ -1,0 +1,66 @@
+img {
+    position: relative;
+}
+img.icon {
+    float: right;
+    margin-right: 2%;
+    padding: 0%;
+}
+img.header {
+    top: 20px;
+    float: left;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+}
+img.pets1 {
+    width: 250px;
+    height: 250px;
+    margin-right: 5%;
+    border: 5px rgb(66, 121, 66) solid;
+}
+img.pets2 {
+    width: 250px;
+    height: 250px;
+    margin-left: 5%;
+    border: 5px rgb(66, 121, 66) solid;
+}
+img:hover.pets1 {
+    border: 5px rgb(35, 179, 35) solid;
+}
+img:hover.pets2 {
+    border: 5px rgb(35, 179, 35) solid;
+}
+img.dogselection {
+    width: auto;
+    height: auto;
+    background-color: rgba(147, 138, 138, 0.7);
+    border: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+div.nav {
+    margin: 0%;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.23);
+}
+p.pets {
+    float: center;
+    color: white;
+    font-size: 28px;
+}
+a.buttons {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+h1.pets {
+    font-size: 32px;
+    font-family: tahoma;
+    color: white;
+}
+a:hover {
+    color: aqua;
+}

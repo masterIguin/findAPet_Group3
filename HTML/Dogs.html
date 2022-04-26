@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8">
+    <script language = "javascript">
+        function displayText(txt) {
+            document.getElementById("desc").innerHTML=txt;
+        }
+        function undisplayText(txt) {
+            document.getElementById("desc").innerHTML=txt;
+        }
+    </script>
+	<title>Find a Pet</title>
+	<style type = "text/css">
+	    .header img {
+			float: left;
+			width: 60px;
+			height: 60px;
+		}
+	    body {
+            background-image: url("../logo, bg, icon/bgp.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 110%;
+            background-attachment: fixed;
+        }
+	</style>
+    <link rel="icon" href="../logo, bg, icon/lovestray.png" type="image/x-icon"> 
+</head>
+<body>
+	<link rel = "stylesheet" type = "text/css" href="../Design/Findpetdesign.css">
+	<!--IGUIN, SEAN MICHAEL-->
+	<!--January 24, 2022-->
+    <div class="nav">
+        <div class="header">
+            <img class="header" src="../logo, bg, icon/lovestray.png" alt="pet-adopt-icon">
+        </div>
+        <div align="right">
+            <a class="buttons" href="">Home</a>
+            <a class="buttons" href="">About Us</a>
+            <a class="buttons" href="../Findpet.html">Find a Pet</a>
+            <a class="buttons" href="">Our Pets</a>
+            <a class="buttons" href="">Contact Us</a>
+            <a class="buttons" href="">FAQs</a>
+            <a class="buttons" href="">Authors</a>
+            <a class="buttons" href=""><img src="../logo, bg, icon/search.png" alt="search" class="icon"></a>
+        </div>
+    </div>
+
+    <h1 class="pets" align="center">DOG SECTION</h1>
+    <div align="center">
+        <img class="dogselection" src="../Dogs/dogs.png" alt="dogs" usemap="#dogs">
+        <map name="dogs">
+            <area shape="rect" coords="12, 5, 170, 215" href="" alt="dog1" onmouseover="displayText('Hi! My name is Sean!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="180, 5, 340, 215" href="" alt="dog2" onmouseover="displayText('Hi! My name is Arthur!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="350, 5, 505, 215" href="" alt="dog3" onmouseover="displayText('Hi! My name is Jane!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="515, 5, 675, 215" href="" alt="dog4" onmouseover="displayText('Hi! My name is Molly!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="10, 23O, 170, 450" href="" alt="dog5" onmouseover="displayText('Hi! My name is Anton!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="170, 230, 335 450" href="" alt="dog6" onmouseover="displayText('Hi! My name is Klaus!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="350, 230, 505, 450" href="" alt="dog7" onmouseover="displayText('Hi! My name is Hope!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="520, 230, 660, 335" href="" alt="dog8" onmouseover="displayText('Hi! My name is Happy!')" onmouseout="undisplayText('')">
+            <area shape="rect" coords="525, 340, 650, 450" href="" alt="dog9" onmouseover="displayText('Hi! My name is Angker!')" onmouseout="undisplayText('')">
+        </map>
+        <div align="center">
+            <p class="pets" id="desc"></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8">
+    <script language = "javascript">
+        function writeText(txt) {
+            document.getElementById("desc").innerHTML=txt;
+        }
+            function dissolveText(txt) {
+                document.getElementById("desc").innerHTML=txt;
+            }
+    </script>
+	<title>Find a Pet</title>
+	<style type = "text/css">
+	    .header img {
+			float: left;
+			width: 60px;
+			height: 60px;
+		}
+	    body {
+            background-image: url("logo, bg, icon/bgp.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 110%;
+            background-attachment: fixed;
+        }
+	</style>
+    <link rel="icon" href="logo, bg, icon/lovestray.png" type="image/x-icon"> 
+</head>
+<body>
+	<link rel = "stylesheet" type = "text/css" href="Design/Findpetdesign.css">
+	<!--IGUIN, SEAN MICHAEL-->
+	<!--January 24, 2022-->
+    <div class="nav">
+        <div class="header">
+            <img class="header" src="logo, bg, icon/lovestray.png" alt="icon">
+        </div>
+        <div align="right">
+            <a class="buttons" href="">Home</a>
+            <a class="buttons" href="">About Us</a>
+            <a class="buttons" href="Findpet.html">Find a Pet</a>
+            <a class="buttons" href="">Our Pets</a>
+            <a class="buttons" href="">Contact Us</a>
+            <a class="buttons" href="">FAQs</a>
+            <a class="buttons" href="">Authors</a>
+            <a class="buttons" href=""><img src="logo, bg, icon/search.png" alt="search" class="icon"></a>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <div align="center">
+        <a href="HTML/Dogs.html"><img class="pets1" src="logo, bg, icon/dog logo.jpg" alt="dog" onmouseover="writeText('DOGS')" onmouseout="dissolveText('')"></a>
+        <a href="HTML/Cats.html"><img class="pets2" src="logo, bg, icon/cat logo.png" alt="cat" onmouseover="writeText('CATS')" onmouseout="dissolveText('')"></a>
+        <h1 class="pets" id="desc"></h1>
+    </div>
+</body>
+</html>
